@@ -5,8 +5,7 @@ A command-line tool to generate placeholder sprites from a YAML configuration fi
 ## Installation
 
 ```bash
-uv venv && source .venv/bin/activate
-uv pip install -e .
+uv pip install git+https://github.com/johnbradley/spritep.git
 ```
 
 ## Usage
