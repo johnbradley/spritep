@@ -1,0 +1,100 @@
+# Sprite Placeholders Configuration
+# Define your placeholder sprites here
+
+defaults:
+  width: 64
+  height: 64
+  # background is transparent by default
+  text_color: "#333333"
+  border:
+    color: "#999999"
+    width: 1
+
+sprites:
+  # Characters
+  - name: player
+    folder: characters
+    width: 32
+    height: 32
+    background: dodgerblue
+    text: "P"
+    text_color: white
+
+  - name: enemy
+    folder: characters
+    width: 32
+    height: 32
+    background: crimson
+    text: "E"
+    text_color: white
+
+  # Items
+  - name: item
+    folder: items
+    width: 16
+    height: 16
+    background: gold
+    text: "I"
+    text_color: "#333333"
+    border:
+      color: darkgoldenrod
+      width: 1
+
+  # Tiles
+  - name: grass
+    folder: tiles
+    width: 64
+    height: 64
+    background: limegreen
+    text: "~"
+    text_color: forestgreen
+
+  - name: water
+    folder: tiles
+    width: 64
+    height: 64
+    background: royalblue
+    text: "👻"
+
+  # Emoji examples
+  - name: heart
+    folder: icons
+    width: 32
+    height: 32
+    background: grey
+    text: "❤️"
+
+  - name: star
+    folder: icons
+    width: 32
+    height: 32
+    text: "⭐"
+
+  - name: gem
+    folder: icons
+    width: 32
+    height: 32
+    text: "💎"
+
+  # UI elements
+  - name: button
+    folder: ui
+    width: 128
+    height: 48
+    background: "#555555"
+    text: "BTN"
+    text_color: white
+    corner_radius: 8
+    border:
+      color: "#777777"
+      width: 2
+
+  - name: icon_frame
+    folder: ui
+    width: 48
+    height: 48
+    background: slategray
+    corner_radius: 12
+    border:
+      color: "#000000"
+      width: 2    

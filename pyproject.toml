@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spritep"
+version = "0.1.0"
+description = "Generate placeholder sprites from YAML configuration"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.0",
+    "pillow>=10.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+spritep = "spritep.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+]
